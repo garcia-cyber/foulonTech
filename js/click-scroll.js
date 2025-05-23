@@ -3,7 +3,7 @@
 
 var sectionArray = [1, 2, 3, 4, 5];
 
-$.each(sectionArray, function(index, value){
+$.each(sectionArray, function(index, value){ 
           
      $(document).scroll(function(){
          var offsetSection = $('#' + 'section_' + value).offset().top - 154;
